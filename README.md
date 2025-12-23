@@ -5,19 +5,18 @@ Professional resume repository with optimized LaTeX formatting and multiple form
 ## Repository Structure
 
 ```
-├── src/
-│   └── isiah_udofia_resume.tex    # Main LaTeX source file
+├── isiah_udofia_resume.tex       # Main LaTeX source file
+├── isiah_udofia_resume.pdf       # Current compiled PDF
 ├── archives/
-│   ├── resume.pdf                 # Legacy PDF version
+│   ├── resume.pdf                # Legacy PDF version
 │   ├── resume_v2.pdf             # Alternative legacy PDF
 │   └── resume.docx               # Microsoft Word format
-├── isiah_udofia_resume.pdf       # Current compiled PDF
 └── README.md                     # This file
 ```
 
 ## Current Resume (LaTeX)
 
-The main resume is in `src/isiah_udofia_resume.tex` with the following features:
+The main resume is in `isiah_udofia_resume.tex` with the following features:
 
 ### ✨ **Professional Formatting**
 - **Optimized spacing**: Standardized section and bullet point spacing
@@ -39,12 +38,11 @@ The main resume is in `src/isiah_udofia_resume.tex` with the following features:
 
 ### Using Overleaf (Recommended)
 1. Go to [overleaf.com](https://overleaf.com)
-2. Upload `src/isiah_udofia_resume.tex`
+2. Upload `isiah_udofia_resume.tex`
 3. Compiles automatically with pdfLaTeX
 
 ### Local Compilation
 ```bash
-cd src/
 pdflatex isiah_udofia_resume.tex
 ```
 
