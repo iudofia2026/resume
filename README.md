@@ -4,9 +4,15 @@ This repository contains multiple versions of my resume in different formats.
 
 ## Files
 
-- `original_resume.pdf` - The original PDF resume that was converted to LaTeX
-- `latest_resume.pdf` - Most recent PDF version
+### Resume Versions (Non-LaTeX)
+- `resume_original.pdf` - The original PDF resume that was converted to LaTeX
+- `resume_latest.pdf` - Most recent PDF version
+- `resume_consulting.docx` - Word document version tailored for consulting applications
+
+### LaTeX Version
 - `isiah_udofia_resume.tex` - LaTeX source file with improved formatting and spacing control
+
+### Documentation
 - `README.md` - This file
 
 ## LaTeX Features
